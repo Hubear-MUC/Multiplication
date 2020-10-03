@@ -1,4 +1,4 @@
-Multiplication 2.0
+Multiplication 3.0
 ------------------
 
 Two numbers get multiplied together.
@@ -8,8 +8,8 @@ The program has to be used with a debugger.
 For the usage of your debugger please refer to the manual delivered with your
 debugger.
 
-  1 float a,b,c;
-  2
+  1 double a,b,c;
+  2 
   3 main()
   4 {
   5 c=a*b;
@@ -38,6 +38,12 @@ and the fraction- digits. The comma (,) will not work.
 
 Changes:
 --------
+
+Version 3.0:
+
+Replaced the data type of the numbers by double to increase precision of
+calculations.
+
 
 Version 2.0:
 
