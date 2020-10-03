@@ -4,9 +4,15 @@ Program for multiplying numbers
 
 See the file  readme.txt  for details.
 
-Code space: 33 bytes
+Code space: 35 bytes
 
 ---------
+
+Version 3.0:
+
+Replaced the data type of the numbers by double to increase precision of
+calculations.
+
 
 Version 2.0:
 
