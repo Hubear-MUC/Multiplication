@@ -1,43 +1,33 @@
-Multiplication 3.0
+Multiplication 4.0
 ------------------
 
 Two numbers get multiplied together.
 
-The program has to be used with a debugger.
+With version 4.0 the program comes with full user interaction so running it with a debugger is not necessary anymore.
 
-For the usage of your debugger please refer to the manual delivered with your
-debugger.
+Just invoke the program after compilation.
 
-  1 double a,b,c;
-  2 
-  3 main()
-  4 {
-  5 c=a*b;
-  6 }
+The program first asks you for the first number of the multiplication, then for the second, each time showing a prompt like this:
 
-First set a breakpoint at line 4 to make the program stop before the 
-calculation and enable you to enter the numbers for the calculation.
+  in : 
+  
+After entering the two numbers the program shows the result on the screen by an output- prompt like this:
 
-Then set a breakpoint at line 6 to make the program stop there for regarding
-the result in variable c.
+  out : 
+  
 
-Start the program execution.
 
-Then set the variables a and b to the numbers you want to multiply.
 
-Now continue the program to do the calculation.
-
-Next regard the content of variable c which will be the result.
-
-Continue the program furthermore to let it finish.
-
-Take care to use the dot (.) for the separation between the integer- digits
-and the fraction- digits. The comma (,) will not work.
 
 
 
 Changes:
 --------
+
+Version 4.0:
+
+Implementation of full user interaction to make it run without the usage of a debugger.
+
 
 Version 3.0:
 

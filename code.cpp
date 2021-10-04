@@ -1,6 +1,11 @@
+#include "dincl.h"
+
 double a,b,c;
 
 main()
 {
-c=a*b;
+ a=in();
+ b=in();
+ c=a*b;
+ out(c);
 }
