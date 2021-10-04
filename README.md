@@ -4,9 +4,14 @@ Program for multiplying numbers
 
 See the file  readme.txt  for details.
 
-Code space: 35 bytes
+Code extent: 81 bytes
 
 ---------
+
+Version 4.0:
+
+Implementation of full user interaction to make it run without the usage of a debugger.
+
 
 Version 3.0:
 
