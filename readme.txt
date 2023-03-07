@@ -1,28 +1,46 @@
-Multiplication 4.0
+Multiplication 5.0
 ------------------
 
-Two numbers get multiplied together.
+Two numbers given as arguments are multiplied and the result will be shown in 
+the terminal.
 
-With version 4.0 the program comes with full user interaction so running it with a debugger is not necessary anymore.
+The new feature is that the numbers to be multiplied together can be given as
+arguments at the command line when the program is invoked.
 
-Just invoke the program after compilation.
+It will be assumed that the name of the program file after compilation will be
 
-The program first asks you for the first number of the multiplication, then for the second, each time showing a prompt like this:
-
-  in : 
+  multiply
   
-After entering the two numbers the program shows the result on the screen by an output- prompt like this:
+If you chose a different name please use this one instead of "multiply".
 
-  out : 
-  
+Just invoke like
+
+  ./multiply number1 number2
+
+for example
+
+  ./multiply 5.80 6.95
+
+And the result will be shown on the terminal.
+
+The numbers are represented as double- values.
+
+If too few arguments are given, the program aborts without telling a result.
+
+The interactive mode that enabled entering the numbers after invocation with
+"in: " prompts got removed because the multiplication of two numbers 
+certainly is not regarded as a big task and it was considered more comfortable 
+to pass the two numbers just at the invocation.
 
 
 
+Version history:
+----------------
 
+Version 5.0:
 
+Implementation of data entry by giving arguments at invocation
 
-Changes:
---------
 
 Version 4.0:
 

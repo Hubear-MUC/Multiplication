@@ -1,11 +1,8 @@
-#include "dincl.h"
+#include <stdio.h>
+#include <stdlib.h>
 
-double a,b,c;
-
-main()
+main(int c,char** r)
 {
- a=in();
- b=in();
- c=a*b;
- out(c);
+  if(c<3)return(-1);
+  printf("%lf\n",atof(r[1])*atof(r[2]));
 }
