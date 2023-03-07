@@ -1,12 +1,22 @@
 # Multiplication
+
+Version 5.0
+
 Program for multiplying numbers
 
 
 See the file  readme.txt  for details.
 
-Code extent: 81 bytes
+Code extent: 126 bytes
 
+
+Version history
 ---------
+
+Version 5.0:
+
+Implementation of data entry by giving arguments at invocation.
+
 
 Version 4.0:
 
